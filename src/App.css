@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Sarala&display=swap');
 .App {
   text-align: center;
 }
@@ -26,6 +27,62 @@
 
 .App-link {
   color: #61dafb;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100wv;
+  height: 100vh;
+  background-color: #CAB492;
+}
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100wv;
+  height: 100vh;
+  background: #FBFDE9;
+  font-family: 'Cormorant SC', serif;
+  color: #543C00;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.card{
+  background: #fcffdc;
+  border: #543C00 2px solid;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 90%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  color: #543C00;
+}
+
+.card h1{
+  font-family: 'Cormorant SC', serif;
+}
+
+.card img{
+  width: 200px;
+  transition: 0.3s;
+}
+.card div{
+  font-family: 'Sarala', sans-serif;
+}
+
+.card button{
+  font-family: 'Sarala', sans-serif;
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #CAB492;
+  color: #543C00;
+  border: 1px #543C00 solid;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
