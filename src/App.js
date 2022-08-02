@@ -7,7 +7,7 @@ const [pokemon, setpokemon] = useState(null)
 const [random, setRandom] = useState(1)
 useEffect(() => {
   pokemonData()
-}, [])
+})
 
 const RandomClickButton = () => {
   const randomNumber = Math.floor(Math.random() * 151)
